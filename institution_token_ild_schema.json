@@ -1,0 +1,10 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "Issuer token for a specific certificate",
+    "description": "This extension provides the token, that is saved separate from the certificate metadata. It will be used as salt for calculating the certificate hash and also for authorizing users to get the metadata of their certificate from the issuer.",
+    "type": "object",
+    "properties": {
+        "institutionToken": {"type": "string"}
+    },
+    "required": ["institutionToken"]
+}
