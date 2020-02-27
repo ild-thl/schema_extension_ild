@@ -1,0 +1,13 @@
+{
+    "@context": {
+        "obi": "https://w3id.org/openbadges#",
+        "ild": "https://www.th-luebeck.de#",
+        "institutionToken": "ild:institutionToken"
+    },
+    "obi:validation": [
+          {
+              "obi:validatesType": "InstitutionTokenILD",
+              "obi:validationSchema": "https://raw.githubusercontent.com/ild-thl/schema_extension_ild/master/institution_token_ild_schema.json"
+          }
+    ]
+}
